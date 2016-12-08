@@ -2,5 +2,7 @@ Revision history for Plack-Middleware-Prometheus-RequestTimes
 
 {{ $NEXT }}
 
+0.0001    2016-12-08 13:18:46+00:00 Europe/London
+
   - First version, released on an unsuspecting world.
 
