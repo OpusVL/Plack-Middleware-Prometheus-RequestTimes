@@ -47,10 +47,6 @@ on your response times.
 
 	my $client = Net::Prometheus->new;
 
-	$client->register( Net::Prometheus::ProcessCollector->new(
-	   prefix => "parent_process",
-	   pid => getppid(),
-	) );
 	my $response_times = $client->new_histogram(
 		name => "response_times",
 		help => "Application response times",
