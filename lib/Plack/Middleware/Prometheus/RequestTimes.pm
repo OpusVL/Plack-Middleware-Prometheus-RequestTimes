@@ -6,7 +6,7 @@ use parent qw( Plack::Middleware );
 use Plack::Util::Accessor qw( observer );
 use Time::HiRes;
 
-our $VERSION = '0.0001';
+our $VERSION = '0.0002';
 
 sub call {
     my $self = shift;
